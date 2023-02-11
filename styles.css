@@ -17,28 +17,63 @@ body {
     grid-template-rows: 1fr 6fr;
 }
 
+.icon {
+    width: 2.5vh;
+}
+
 #header {
+    padding: 2vh 2vh;
     display: grid;
     grid-column: 2 / 3;
     border: 1px solid green;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 8fr 3fr;
+    align-content: center;
+    gap: 2vh;
 }
 
 #search {
-    grid-column: 1 / 4;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 15fr;
+    grid-column: 1 / 2;
+}
+
+#search img {
+    justify-self: right;
+    padding-right: 1vh;
+}
+
+#search input {
+    grid-column: 2 / 3;
+    border-radius: 1vh;
+    background-color: rgb(209, 200, 200);
+    border-style: none;
+    height: 70%;
 }
 
 #profile {
     display: grid;
-    grid-column: 4 / 6;
-    grid-template-columns: 1fr 1fr 2fr;
+    gap: 1vh;
+    align-items: center;
+    justify-items: center;
+    grid-column: 2 / 3;
+    grid-template-columns: 1fr 1fr 4fr;
+}
+
+.profile-icon-small {
+    width: 4vh;
+    border-radius: 50%;
+}
+
+#profile-name {
+    font-size: larger;
 }
 
 #greeting {
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-column: 1 / 4;
+    grid-template-columns: 1fr 8fr;
+    gap: 1vh;
 }
 
 #greeting>img {
@@ -47,16 +82,41 @@ body {
 
 #greeting-text {
     text-align: left;
+    align-self: center;
+}
+
+#greeting-name {
+    font-size: larger;
+    font-weight: 800;
+}
+
+.profile-icon {
+    width: 8vh;
+    border-radius: 50%;
 }
 
 #functions {
-    grid-column: 4 / 6;
+    grid-column: 2 / 3;
+    align-self: center;
 }
 
 #function-buttons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     list-style-type: none;
+}
+
+#function-buttons > a {
+    text-decoration: none;
+}
+
+
+.function-button {
+    background-color: cornflowerblue;
+    margin: 1vh;
+    padding: 0.5vh 1vh;
+    color: cornsilk;
+    border-radius: 0.5vh;
 }
 
 #sidebar {
@@ -74,6 +134,7 @@ body {
 #projects {
     display: grid;
     grid-row: 1 / 3;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 #announcements {
