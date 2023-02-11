@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Ubuntu;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    color: rgb(23, 23, 31);
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 6fr;
+}
+
+#header {
+    display: grid;
+    grid-column: 2 / 3;
+    border: 1px solid green;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#search {
+    grid-column: 1 / 4;
+}
+
+#profile {
+    display: grid;
+    grid-column: 4 / 6;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+#greeting {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-column: 1 / 4;
+}
+
+#greeting>img {
+    grid-column: 1 / 2;
+}
+
+#greeting-text {
+    text-align: left;
+}
+
+#functions {
+    grid-column: 4 / 6;
+}
+
+#function-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+}
+
+#sidebar {
+    border: 1px solid red;
+    grid-row: 1 / 3;
+}
+
+#content {
+    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#projects {
+    display: grid;
+    grid-row: 1 / 3;
+}
+
+#announcements {
+    display: grid;
+}
+
+#trending {
+    display: grid;
+}
