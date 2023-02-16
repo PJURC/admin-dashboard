@@ -1,0 +1,68 @@
+<div id="projects-container">
+                <div class="project">
+                    <h3 class="project-header">Project 1</h3>
+                    <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div id="project-buttons">
+                        <a href="#"><i class="bi-star project-icon"></i></a>
+                        <a href="#"><i class="bi-eye-fill project-icon"></i></a>
+                        <a href="#"><i class="bi-share project-icon"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3 class="project-header">Project 2</h3>
+                    <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div id="project-buttons">
+                        <a href="#"><i class="bi-star project-icon"></i></a>
+                        <a href="#"><i class="bi-eye-fill project-icon"></i></a>
+                        <a href="#"><i class="bi-share project-icon"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3 class="project-header">Project 3</h3>
+                    <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div id="project-buttons">
+                        <a href="#"><i class="bi-star project-icon"></i></a>
+                        <a href="#"><i class="bi-eye-fill project-icon"></i></a>
+                        <a href="#"><i class="bi-share project-icon"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3 class="project-header">Project 4</h3>
+                    <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div id="project-buttons">
+                        <a href="#"><i class="bi-star project-icon"></i></a>
+                        <a href="#"><i class="bi-eye-fill project-icon"></i></a>
+                        <a href="#"><i class="bi-share project-icon"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3 class="project-header">Project 5</h3>
+                    <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div id="project-buttons">
+                        <a href="#"><i class="bi-star project-icon"></i></a>
+                        <a href="#"><i class="bi-eye-fill project-icon"></i></a>
+                        <a href="#"><i class="bi-share project-icon"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3 class="project-header">Project 6</h3>
+                    <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div id="project-buttons">
+                        <a href="#"><i class="bi-star project-icon"></i></a>
+                        <a href="#"><i class="bi-eye-fill project-icon"></i></a>
+                        <a href="#"><i class="bi-share project-icon"></i></a>
+                    </div>
+                </div>
+            </div>
